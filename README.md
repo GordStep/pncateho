@@ -14,7 +14,7 @@ Thingiverse: https://www.thingiverse.com/thing:7178890
 
 2) Выполняем команду ```qmk setup```, находим ```QMK home``` и переходим в папку (копируем адрес или кликаем зажав ```ctrl```)
 
-![Примерный вывод qmk setup](img/img1.png)
+![Примерный вывод qmk setup](img/img2.png)
 
 3) В папке keyboards/ создаём папку alko/, в неё копируем папку pncateho(из этого репозитория)
 ```
@@ -44,9 +44,4 @@ qmk_firmware/
     └── alko_pncateho_default.uf2     # ✅ Итоговая прошивка!
 ```
 
-
-* copy directory pncateho to qmk/keyboards/alko/pncateho
-* run ```qmk compile -kb alko/pncateho -km default```
-* flash file alko_pncateho_default.uf2 to your rp2040
-
-
+5) Записываем файл прошивки на rp2040. Подключаем плату к компьютеру с зажатой кнопкой Boot, она откроется как флешка RPI-RP2, копикуем туда файл прошивки alko_pncateho_default.uf2
