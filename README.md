@@ -19,7 +19,9 @@ Thingiverse: https://www.thingiverse.com/thing:7178890
 3) В папке keyboards/ создаём папку alko/, в неё копируем папку pncateho(из этого репозитория)
 ```
 qmk_firmware/
+|
 └── keyboards/
+    |
     └── alko/
         └── pncateho/
             ├── ...
